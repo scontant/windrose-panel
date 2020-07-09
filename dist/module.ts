@@ -542,7 +542,7 @@ class PlotlyPanelCtrl extends MetricsPanelCtrl {
     this.panel.pconfig.layout.showlegend = legendmapping[plot_type];
 
     let radialaxismapping = {
-      scatter: {ticksuffix: ' m/s', angle: 90},
+      scatter: {ticksuffix: ' %', angle: 90},
       windrose: {ticksuffix: '%', angle: 90},
     };
     this.panel.pconfig.layout.polar.radialaxis = radialaxismapping[plot_type];
