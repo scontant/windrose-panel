@@ -448,7 +448,7 @@ System.register(["app/plugins/sdk", "lodash", "jquery", "./lib/plotly.min"], fun
                     };
                     this.panel.pconfig.layout.showlegend = legendmapping[plot_type];
                     var radialaxismapping = {
-                        scatter: { ticksuffix: ' m/s', angle: 90 },
+                        scatter: { ticksuffix: ' %', angle: 90 },
                         windrose: { ticksuffix: '%', angle: 90 },
                     };
                     this.panel.pconfig.layout.polar.radialaxis = radialaxismapping[plot_type];
